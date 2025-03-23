@@ -10,7 +10,7 @@ import { X, Send, Bot, Paperclip, ImageIcon, Loader2 } from "lucide-react"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { motion } from "framer-motion"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { getChatGPTResponse } from "@/components/chatgpt-servics"
+import { getChatGPTResponse } from "@/components/chatgpt-services"
 
 type Message = {
   id: string
